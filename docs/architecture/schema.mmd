@@ -43,7 +43,7 @@ erDiagram
         int book_id FK
         date checkout_date
         date due_date
-        date return_date
+        date return_date "nullable"
     }
 
     USERS ||--o| BORROWERS : has
