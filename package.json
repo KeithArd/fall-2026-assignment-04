@@ -17,5 +17,9 @@
   "dependencies": {
     "kysely": "^0.29.6",
     "pg": "^8.23.0"
+  },
+  "allowScripts": {
+    "puppeteer@25.12.0": true,
+    "esbuild@0.28.2": true
   }
 }
